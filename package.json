@@ -1,0 +1,34 @@
+{
+  "name": "world-building-game",
+  "version": "0.0.1",
+  "description": "READEME.md",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "electron ./game/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z4F1/WorldBuildingGame.git"
+  },
+  "keywords": [
+    "game",
+    "typescript",
+    "electron",
+    "three.js",
+    "3d",
+    "webgl"
+  ],
+  "author": "Pelle Pastoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Z4F1/WorldBuildingGame/issues"
+  },
+  "homepage": "https://github.com/Z4F1/WorldBuildingGame#readme",
+  "dependencies": {
+    "three.js": "^0.77.1"
+  },
+  "devDependencies": {
+    "electron": "^12.0.0"
+  }
+}
